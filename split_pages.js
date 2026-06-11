@@ -38,7 +38,7 @@ const faq = extractSection('<!-- ===== FAQ ===== -->', '<!-- ===== CONTACT =====
 const contact = extractSection('<!-- ===== CONTACT ===== -->', '<!-- ===== FOOTER ===== -->');
 
 function generatePage(title, breadcrumbName, content) {
-    const modifiedTop = topPart.replace('<title>FreeGoTV – Best IPTV Service Provider 2026 | freego-tv.online</title>', `<title>${title} | FreeGoTV</title>`);
+    const modifiedTop = topPart.replace('<title>FreeGoTV – Best IPTV Service Provider 2026</title>', `<title>${title} | FreeGoTV</title>`);
     const breadcrumbHtml = `
 <!-- ===== PAGE HEADER ===== -->
 <div class="page-header">
