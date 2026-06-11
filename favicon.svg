@@ -1,6 +1,16 @@
-<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="38" height="38" rx="8" fill="white"/>
-  <path d="M10 12h6v14h-6z" fill="#FF5500"/>
-  <path d="M18 12h10l-5 7 5 7H18l5-7-5-7z" fill="#FF5500"/>
-  <circle cx="29" cy="10" r="4" fill="#FF5500"/>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: deep navy rounded square -->
+  <rect width="64" height="64" rx="14" fill="#0B1E3A"/>
+
+  <!-- Subtle inner glow ring -->
+  <rect x="1" y="1" width="62" height="62" rx="13" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.25"/>
+
+  <!-- Stylised "Q" built from a circle + tail stroke -->
+  <circle cx="30" cy="30" r="14" stroke="white" stroke-width="5" fill="none"/>
+  <!-- Q tail (bottom-right diagonal) -->
+  <line x1="40" y1="40" x2="48" y2="48" stroke="white" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Sky-blue play-triangle accent (top-right corner badge) -->
+  <circle cx="51" cy="14" r="9" fill="#38BDF8"/>
+  <polygon points="48,11 48,17 54,14" fill="white"/>
 </svg>
