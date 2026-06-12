@@ -140,14 +140,34 @@ function submitForm(e) {
   setTimeout(() => {
     btn.textContent  = 'Message Sent ✓';
     btn.style.background = 'linear-gradient(135deg,#00c896,#009f76)';
-    success.style.display = 'block';
+    if (success) success.style.display = 'block';
     document.getElementById('contact-form').reset();
 
     setTimeout(() => {
       btn.textContent  = 'Send Message';
       btn.style.background = '';
       btn.disabled     = false;
-      success.style.display = 'none';
+      if (success) success.style.display = 'none';
+    }, 5000);
+  }, 1500);
+}
+
+// Alias used by contact.html
+function handleContactForm(e) {
+  e.preventDefault();
+  const btn = document.getElementById('btn-contact-submit');
+  if (!btn) return;
+  const originalText = btn.textContent;
+  btn.textContent = 'Sending…';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = 'Message Sent ✓';
+    btn.style.background = 'linear-gradient(135deg,#00c896,#009f76)';
+    document.getElementById('contact-form').reset();
+    setTimeout(() => {
+      btn.textContent = originalText;
+      btn.style.background = '';
+      btn.disabled = false;
     }, 5000);
   }, 1500);
 }
@@ -156,7 +176,8 @@ function submitForm(e) {
 const fadeTargets = document.querySelectorAll(
   '.feature-item, .check-item, .price-card, .testimonial-card, ' +
   '.faq-item, .device-item, .r-stat, .step-card, .step-image, ' +
-  '.sport-card, .sport-pill, .sports-text, .sports-visual'
+  '.sport-card, .sport-pill, .sports-text, .sports-visual, ' +
+  '.contact-item, .article-card, .section-header, .reseller-inner'
 );
 
 fadeTargets.forEach(el => el.classList.add('fade-up'));
@@ -242,11 +263,8 @@ document.querySelectorAll('.price-card').forEach(card => {
   });
 });
 
-// ── Page load animation ───────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
-  document.body.style.opacity = '0';
-  document.body.style.transition = 'opacity 0.4s ease';
-  requestAnimationFrame(() => {
-    document.body.style.opacity = '1';
-  });
-});
+// ── Fallback: make all fade-up elements visible after 1.5s ──────────────────
+setTimeout(() => {
+  document.querySelectorAll('.fade-up').forEach(el => el.classList.add('visible'));
+}, 1500);
+

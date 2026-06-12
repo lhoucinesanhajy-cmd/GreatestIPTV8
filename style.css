@@ -31,6 +31,7 @@ body {
   color: var(--white);
   line-height: 1.6;
   overflow-x: hidden;
+  opacity: 1;
 }
 
 a { text-decoration: none; color: inherit; }
@@ -1249,6 +1250,11 @@ img { max-width: 100%; display: block; }
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+/* Safety fallback — if JS observer never fires, show everything */
+@media (prefers-reduced-motion: reduce) {
+  .fade-up { opacity: 1 !important; transform: none !important; }
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {

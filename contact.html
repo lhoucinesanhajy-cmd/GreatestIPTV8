@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -79,6 +79,74 @@
     </div>
   </div>
 </div>
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section" id="contact-content">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Contact <span class="accent">Us</span></h2>
+      <p class="section-desc">Our support team is available 24/7. Reach out via WhatsApp for the fastest response.</p>
+    </div>
+    <div class="contact-inner fade-up">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">💬</div>
+          <div>
+            <h4>WhatsApp (Fastest)</h4>
+            <a href="https://wa.me/447347586107" target="_blank" id="contact-wa-link">+44 7347 586107</a>
+            <p>Available 24/7 — average reply time: under 5 minutes</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <h4>Email Support</h4>
+            <a href="mailto:support@qwevotv.vip" id="contact-email-link">support@qwevotv.vip</a>
+            <p>We reply to all emails within 24 hours</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⏰</div>
+          <div>
+            <h4>Support Hours</h4>
+            <p>24 hours a day, 7 days a week</p>
+            <p>Including all public holidays</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⚡</div>
+          <div>
+            <h4>Instant Activation</h4>
+            <p>Subscriptions activated within minutes of payment confirmation</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form" onsubmit="handleContactForm(event)">
+        <div class="form-group">
+          <input type="text" id="contact-name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="contact-email" placeholder="Your Email Address" required />
+        </div>
+        <div class="form-group">
+          <select id="contact-subject">
+            <option value="" disabled selected>Select a Topic</option>
+            <option value="subscription">New Subscription</option>
+            <option value="renewal">Renewal / Upgrade</option>
+            <option value="technical">Technical Support</option>
+            <option value="reseller">Reseller Enquiry</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea id="contact-message" rows="5" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width" id="btn-contact-submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- ===== FOOTER ===== -->
 <footer class="footer" id="footer">
   <div class="container">
