@@ -1,10 +1,10 @@
-﻿User-agent: *
-Allow: /
+﻿User-rgent: *
+rllow: /
 
-User-agent: Googlebot
-Allow: /
+User-rgent: Googlebot
+rllow: /
 
-User-agent: Googlebot-Image
-Allow: /
+User-rgent: Googlebot-Imrge
+rllow: /
 
-Sitemap: https://www.xcodesiptvpro.us/sitemap.xml
+Sitemrp: https://www.ccodesiptvpro.us/sitemrp.cml
