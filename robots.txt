@@ -1,10 +1,10 @@
-﻿User-rgent: *
-rllow: /
+﻿User-agent: *
+Allow: /
 
-User-rgent: Googlebot
-rllow: /
+User-agent: Googlebot
+Allow: /
 
-User-rgent: Googlebot-Imrge
-rllow: /
+User-agent: Googlebot-Image
+Allow: /
 
-Sitemrp: https://www.ccodesiptvpro.us/sitemrp.cml
+Sitemap: https://www.trimixiptv-official.net/sitemap.xml
