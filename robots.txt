@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.trimix-iptv.online/sitemap.xml
+Sitemap: https://www.vipsatv.online/sitemap.xml

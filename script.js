@@ -1,4 +1,4 @@
-/* ===== FreeGoTV – script.js ===== */
+﻿/* ===== FreeGoTV – script.js ===== */
 
 // ── Navbar scroll effect ──────────────────────────────────────────────────────
 const navbar = document.getElementById('navbar');

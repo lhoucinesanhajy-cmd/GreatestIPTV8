@@ -1,19 +1,22 @@
-﻿/* ===== RESET & BASE ===== */
+/* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  /* ── Brand Palette: Red · White · Blue ── */
-  --red:          #E63946;   /* primary accent  */
-  --red-dark:     #c1121f;   /* primary hover   */
-  --red-light:    #ff6b76;   /* primary light   */
-  --blue:         #1E90FF;   /* secondary accent */
-  --blue-dark:    #0068d6;   /* secondary hover  */
-  --blue-light:   #63B3FF;   /* secondary light  */
-  /* Legacy aliases kept for existing class references */
-  --orange:       #ffffff;   /* was icy-white, now white  */
-  --orange-light: #ff6b76;   /* maps to red-light         */
-  --orange-dark:  #E63946;   /* maps to red               */
-  --dark: #0a0a0a;
+  /* ── vipsatv Brand Palette: Red · White · Purple · Black ── */
+  --red:          #E63946;   /* primary accent (Red)     */
+  --red-dark:     #c1121f;   /* primary hover            */
+  --red-light:    #ff6b76;   /* primary light            */
+  --purple:       #7c3aed;   /* secondary accent (Purple)*/
+  --purple-dark:  #5b21b6;   /* secondary hover          */
+  --purple-light: #a78bfa;   /* secondary light          */
+  /* Legacy aliases – mapped to vipsatv palette */
+  --blue:         #7c3aed;   /* remapped to purple       */
+  --blue-dark:    #5b21b6;
+  --blue-light:   #a78bfa;
+  --orange:       #ffffff;   /* white                    */
+  --orange-light: #ff6b76;   /* maps to red-light        */
+  --orange-dark:  #E63946;   /* maps to red              */
+  --dark: #0a0a0a;           /* Black base               */
   --dark2: #111111;
   --dark3: #1a1a1a;
   --dark4: #222222;
@@ -22,13 +25,12 @@
   --gray: #888888;
   --gray-light: #bbbbbb;
   --accent-green: #00c896;
-  --purple: #6c3fff;
   --font: 'Outfit', sans-serif;
   --radius: 16px;
   --radius-sm: 8px;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --shadow: 0 20px 60px rgba(0,0,0,0.5);
-  --glow: 0 0 30px rgba(230,57,70,0.3);
+  --glow: 0 0 30px rgba(124,58,237,0.3);
 }
 
 html { scroll-behavior: smooth; font-size: 16px; }
