@@ -1,21 +1,21 @@
-﻿/* ===== RESET & BASE ===== */
+/* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  /* ── portaltivi Brand Palette: Blue · White · Purple · Black ── */
-  --red:          #C8D900;   /* primary accent (Blue)    */   /* primary accent (Red)     */
-  --red-dark:     #9aaa00;   /* primary hover            */   /* primary hover            */
-  --red-light:    #e0f000;   /* primary light            */   /* primary light            */
+  /* ── XoomsTV Brand Palette: White · Black · Purple ── */
+  --red:          #ffffff;   /* primary accent (White)   */
+  --red-dark:     #cccccc;   /* primary hover            */
+  --red-light:    #f0f0f0;   /* primary light            */
   --purple:       #7c3aed;   /* secondary accent (Purple)*/
   --purple-dark:  #5b21b6;   /* secondary hover          */
   --purple-light: #a78bfa;   /* secondary light          */
-  /* Legacy aliases – mapped to vipsatv palette */
-  --blue:         #7c3aed;   /* remapped to purple       */
+  /* Aliases */
+  --blue:         #7c3aed;
   --blue-dark:    #5b21b6;
   --blue-light:   #a78bfa;
-  --orange:       #ffffff;   /* white                    */   /* white                    */
-  --orange-light: #e0f000;   /* maps to blue-light       */   /* maps to red-light        */
-  --orange-dark:  #C8D900;   /* maps to blue             */   /* maps to red              */
+  --orange:       #ffffff;   /* white                    */
+  --orange-light: #f0f0f0;   /* white light              */
+  --orange-dark:  #ffffff;   /* white accent             */
   --dark: #0a0a0a;           /* Black base               */
   --dark2: #111111;
   --dark3: #1a1a1a;

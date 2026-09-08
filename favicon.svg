@@ -1,5 +1,6 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="7" fill="#0a0a0a"/>
-  <text x="3" y="21" font-family="Arial" font-weight="900" font-size="15" fill="#1565C0">ST</text>
-  <circle cx="27" cy="7" r="3" fill="#1565C0"/>
+  <text x="2" y="22" font-family="Arial" font-weight="900" font-size="13" fill="#ffffff">X</text>
+  <text x="11" y="22" font-family="Arial" font-weight="900" font-size="13" fill="#7c3aed">TV</text>
+  <circle cx="28" cy="6" r="3" fill="#7c3aed"/>
 </svg>
