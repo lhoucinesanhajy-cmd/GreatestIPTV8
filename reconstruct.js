@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 
 function extractContent(filename) {
     const html = fs.readFileSync(filename, 'utf8');
