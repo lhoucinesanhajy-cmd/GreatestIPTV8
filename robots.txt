@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
 User-agent: Googlebot
@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.XoomsTV.com/sitemap.xml
+Sitemap: https://www.nobiptv.com/sitemap.xml
