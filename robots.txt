@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.nobiptv.com/sitemap.xml
+Sitemap: https://www.nobiptv.vip/sitemap.xml
