@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.greatestiptv.us/sitemap.xml
+Sitemap: https://www.grea-test-iptv.us/sitemap.xml
