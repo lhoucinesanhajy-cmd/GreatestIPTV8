@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.nobiptv.vip/sitemap.xml
+Sitemap: https://www.greatestiptv.us/sitemap.xml
