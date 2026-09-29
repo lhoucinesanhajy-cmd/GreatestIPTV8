@@ -1,12 +1,12 @@
-﻿/* ===== RESET & BASE ===== */
+/* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  /* ── GreatestIPTV Brand Palette: Green · Black · White ── */
-  --red:          #ffffff;   /* primary accent (White)   */
-  --red-dark:     #cccccc;   /* primary hover            */
-  --red-light:    #f0f0f0;   /* primary light            */
-  --purple:       #1d6ff5;   /* secondary accent (Purple)*/
+  /* ── virtioraiptv Brand Palette: Blue · Red · White ── */
+  --red:          #e53e3e;   /* primary accent (Red)     */
+  --red-dark:     #c53030;   /* primary hover (Dark Red) */
+  --red-light:    #fc8181;   /* primary light (Light Red)*/
+  --purple:       #1d6ff5;   /* secondary accent (Blue)  */
   --purple-dark:  #1558c0;   /* secondary hover          */
   --purple-light: #93c5fd;   /* secondary light          */
   /* Aliases */
@@ -14,8 +14,8 @@
   --blue-dark:    #1558c0;
   --blue-light:   #93c5fd;
   --orange:       #ffffff;   /* white                    */
-  --orange-light: #f0f0f0;   /* white light              */
-  --orange-dark:  #ffffff;   /* white accent             */
+  --orange-light: #fff5f5;   /* white-red light          */
+  --orange-dark:  #e53e3e;   /* red accent               */
   --dark: #0a0a0a;           /* Black base               */
   --dark2: #111111;
   --dark3: #1a1a1a;

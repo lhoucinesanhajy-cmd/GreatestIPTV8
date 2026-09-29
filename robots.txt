@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.zusott.com/sitemap.xml
+Sitemap: https://www.virtioraiptv.vip/sitemap.xml
