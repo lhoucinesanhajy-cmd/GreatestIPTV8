@@ -7,4 +7,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.virtioraiptv.vip/sitemap.xml
+Sitemap: https://www.greatestiptv.vip/sitemap.xml

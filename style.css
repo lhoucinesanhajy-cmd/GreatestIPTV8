@@ -1,8 +1,8 @@
-/* ===== RESET & BASE ===== */
+﻿/* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  /* ── virtioraiptv Brand Palette: Blue · Red · White ── */
+  /* ── GreatestIPTV Brand Palette: Blue · Red · White ── */
   --red:          #e53e3e;   /* primary accent (Red)     */
   --red-dark:     #c53030;   /* primary hover (Dark Red) */
   --red-light:    #fc8181;   /* primary light (Light Red)*/
